@@ -1,18 +1,18 @@
 package danik.may.org.scroller;
 
 import danik.may.org.entity.Person;
+import danik.may.org.map.DataMapper;
 import danik.may.org.storage.CharactersStorage;
 
 import java.util.List;
 
 public class DataScroller {
-    private CharactersStorage charactersStorage = new CharactersStorage();
-    private List<Person> characters = charactersStorage.getStorage().getCharacters();
 
     private int currentIndex = 0;
-    private int size = characters.size() - 1;
+    private int size = CharactersStorage.getState().getStorage().getCharacters().size() - 1;
 
-    public void chooseNextPerson() {
+    public void chooseNextPerson(Person personUpdate) {
+        DataMapper.updatePerson(CharactersStorage.getState().getStorage().getCharacters().get(currentIndex), personUpdate);
         if (currentIndex < size) {
             currentIndex++;
         } else {
@@ -20,15 +20,19 @@ public class DataScroller {
         }
     }
 
-    public void choosePreviousPerson() {
+    public void choosePreviousPerson(Person personUpdate) {
+        DataMapper.updatePerson(CharactersStorage.getState().getStorage().getCharacters().get(currentIndex), personUpdate);
         if (currentIndex > 0) {
             currentIndex--;
         } else {
             currentIndex = size;
         }
     }
+    public void chooseCurrentPerson(Person personUpdate) {
+        DataMapper.updatePerson(CharactersStorage.getState().getStorage().getCharacters().get(currentIndex), personUpdate);
+    }
 
     public Person getCurrentPerson() {
-        return characters.get(currentIndex);
+        return CharactersStorage.getState().getStorage().getCharacters().get(currentIndex);
     }
 }

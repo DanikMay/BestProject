@@ -16,7 +16,13 @@ public class JsonConverter {
         return characters;
     }
 
-    public String writeData(Characters characters){
-        return null;
+    public String writeData(Characters characters) {
+        String jsonData = null;
+        try {
+            jsonData = objectMapper.writeValueAsString(characters);
+        } catch (Exception exception) {
+
+        }
+        return jsonData;
     }
 }

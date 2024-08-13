@@ -6,7 +6,7 @@
       "agility": 1,
       "strength": 5,
       "specialization": "Воин",
-      "pathForImage": "C:\\Users\\Администратор\\IdeaProjects\\DanikMay\\BestRPG\\data\\pictures\\warrior.jpg"
+      "pathForImage": "data/pictures/warrior.jpg"
     },
     {
       "uId": "2",
@@ -14,7 +14,7 @@
       "agility": 1,
       "strength": 5,
       "specialization": "Воин",
-      "pathForImage": "C:\\Users\\Администратор\\IdeaProjects\\DanikMay\\BestRPG\\data\\pictures\\warrior_fem.jpg"
+      "pathForImage": "data/pictures/warrior_fem.jpg"
     },
     {
       "uId": "3",
@@ -22,7 +22,7 @@
       "agility": 5,
       "strength": 1,
       "specialization": "Разбойник",
-      "pathForImage": "C:\\Users\\Администратор\\IdeaProjects\\DanikMay\\BestRPG\\data\\pictures\\rouge.jpg"
+      "pathForImage": "data/pictures/rogue.jpg"
     },
     {
       "uId": "4",
@@ -30,7 +30,7 @@
       "agility": 5,
       "strength": 1,
       "specialization": "Разбойник",
-      "pathForImage": "C:\\Users\\Администратор\\IdeaProjects\\DanikMay\\BestRPG\\data\\pictures\\rouge_fem.jpg"
+      "pathForImage": "data/pictures/rogue_fem.jpg"
     },
     {
       "uId": "5",
@@ -38,7 +38,7 @@
       "agility": 1,
       "strength": 1,
       "specialization": "Маг",
-      "pathForImage": "C:\\Users\\Администратор\\IdeaProjects\\DanikMay\\BestRPG\\data\\pictures\\mage.jpg"
+      "pathForImage": "data/pictures/mage.jpg"
     },
     {
       "uId": "6",
@@ -46,7 +46,14 @@
       "agility": 1,
       "strength": 1,
       "specialization": "Маг",
-      "pathForImage": "C:\\Users\\Администратор\\IdeaProjects\\DanikMay\\BestRPG\\data\\pictures\\mage_fem.jpg"
+      "pathForImage": "data/pictures/mage_fem.jpg"
+    },
+    {
+      "uId": "7",
+      "intelligence": 0,
+      "agility": 1,
+      "strength": 1,
+      "specialization": "Прокаженный"
     }
   ]
 }

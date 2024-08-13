@@ -49,9 +49,9 @@
     background-color: #1A1A1A;
     -fx-text-fill: #AFB1B3;
     -fx-highlight-fill: #4e4e4e;
-    -fx-min-height: 25;
-    min-height: 25;
-    -fx-pref-height: 25;
+    -fx-min-height: 40;
+    min-height: 40;
+    -fx-pref-height: 40;
 }
 .text-field:hover{
     -fx-border-color: #222222;

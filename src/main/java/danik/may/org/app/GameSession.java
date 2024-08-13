@@ -1,7 +1,6 @@
 package danik.may.org.app;
 
 import danik.may.org.controller.AppController;
-import danik.may.org.loader.FileLoader;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
@@ -11,12 +10,8 @@ public class GameSession extends Application {
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage) {
         AppController appController = new AppController(primaryStage);
         appController.updateScene();
-
-        FileLoader fileLoader = new FileLoader();
-        String jsonData="yrffr";
-        fileLoader.save(jsonData);
     }
 }
