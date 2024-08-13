@@ -4,8 +4,6 @@ import danik.may.org.entity.Person;
 import danik.may.org.map.DataMapper;
 import danik.may.org.storage.CharactersStorage;
 
-import java.util.List;
-
 public class DataScroller {
 
     private int currentIndex = 0;
