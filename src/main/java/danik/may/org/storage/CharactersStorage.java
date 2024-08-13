@@ -2,10 +2,8 @@ package danik.may.org.storage;
 
 import danik.may.org.converter.JsonConverter;
 import danik.may.org.entity.Characters;
-import danik.may.org.entity.Person;
 import danik.may.org.loader.FileManager;
 
-import java.util.List;
 
 public class CharactersStorage {
 
