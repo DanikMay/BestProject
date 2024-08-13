@@ -1,1 +1,60 @@
-{"characters":[{"uId":1,"intelligence":1,"agility":1,"strength":5,"specialization":"Воин","pathForImage":"data/pictures/warrior.jpg"},{"uId":2,"intelligence":1,"agility":1,"strength":5,"specialization":"Воин","pathForImage":"data/pictures/warrior_fem.jpg"},{"uId":3,"intelligence":1,"agility":5,"strength":1,"specialization":"Разбойник","pathForImage":"data/pictures/rogue.jpg"},{"uId":4,"intelligence":1,"agility":5,"strength":1,"specialization":"Разбойник","pathForImage":"data/pictures/rogue_fem.jpg"},{"uId":5,"intelligence":5,"agility":1,"strength":1,"specialization":"Маг","pathForImage":"data/pictures/mage.jpg"},{"uId":6,"intelligence":5,"agility":1,"strength":1,"specialization":"Маг","pathForImage":"data/pictures/mage_fem.jpg"},{"uId":7,"intelligence":0,"agility":1,"strength":1,"specialization":"Прокаженный","pathForImage":null}]}
+{
+  "characters": [
+    {
+      "uId": 1,
+      "intelligence": 1,
+      "agility": 1,
+      "strength": 5,
+      "specialization": "Воин",
+      "pathForImage": "data/pictures/warrior.jpg"
+    },
+    {
+      "uId": 2,
+      "intelligence": 1,
+      "agility": 1,
+      "strength": 5,
+      "specialization": "Воин",
+      "pathForImage": "data/pictures/warrior_fem.jpg"
+    },
+    {
+      "uId": 3,
+      "intelligence": 1,
+      "agility": 5,
+      "strength": 1,
+      "specialization": "Разбойник",
+      "pathForImage": "data/pictures/rogue.jpg"
+    },
+    {
+      "uId": 4,
+      "intelligence": 1,
+      "agility": 5,
+      "strength": 1,
+      "specialization": "Разбойник",
+      "pathForImage": "data/pictures/rogue_fem.jpg"
+    },
+    {
+      "uId": 5,
+      "intelligence": 5,
+      "agility": 1,
+      "strength": 1,
+      "specialization": "Маг",
+      "pathForImage": "data/pictures/mage.jpg"
+    },
+    {
+      "uId": 6,
+      "intelligence": 5,
+      "agility": 1,
+      "strength": 1,
+      "specialization": "Маг",
+      "pathForImage": "data/pictures/mage_fem.jpg"
+    },
+    {
+      "uId": 7,
+      "intelligence": 0,
+      "agility": 1,
+      "strength": 1,
+      "specialization": "Прокаженный",
+      "pathForImage": null
+    }
+  ]
+}
