@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>danik.may.org</groupId>
-    <artifactId>BestProject</artifactId>
+    <artifactId>BestRPG</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

@@ -9,10 +9,8 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-import static danik.may.org.type.FilterType.ARRIVAL_BEFORE_DEPARTURE;
-import static danik.may.org.type.FilterType.DEPARTURE_BY_CURRENT_DATE;
 import static danik.may.org.filter.FlightFilterManager.getFiltredFlight;
-import static danik.may.org.type.FilterType.GROUND_TIME_FILTER;
+import static danik.may.org.type.FilterType.*;
 import static danik.may.org.utils.StdOutUtils.showFiltrationResult;
 import static danik.may.org.utils.StdOutUtils.showMessage;
 
