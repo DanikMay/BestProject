@@ -1,6 +1,7 @@
 package danik.may.org.controller;
 
 import danik.may.org.constant.Settings;
+import danik.may.org.database.H2DataBase;
 import danik.may.org.entity.Person;
 import danik.may.org.map.DataMapper;
 import danik.may.org.scroller.DataScroller;
@@ -22,6 +23,7 @@ import javafx.stage.Stage;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.sql.SQLException;
 
 public class AppController {
 
@@ -64,7 +66,16 @@ public class AppController {
         scroller.choosePreviousPerson(updatePerson);
         updateScene();
     }
-
+    private void showDataBase() {
+        H2DataBase h2DataBase = null;
+        try {
+            h2DataBase = H2DataBase.getH2DataBase();
+            h2DataBase.add(CharactersStorage.getState().getStorage().getCharacters());
+            h2DataBase.read();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
     private void saved() {
         Person updatePerson = new Person();
         DataMapper.updatePerson(updatePerson,
@@ -201,5 +212,6 @@ public class AppController {
         scene.getStylesheets().add("dark-theme.css");
         primaryStage.setScene(scene);
         primaryStage.show();
+        showDataBase();
     }
 }

@@ -7,7 +7,7 @@ import danik.may.org.storage.CharactersStorage;
 public class DataScroller {
 
     private int currentIndex = 0;
-    private int size = CharactersStorage.getState().getStorage().getCharacters().size() - 1;
+    private final int size = CharactersStorage.getState().getStorage().getCharacters().size() - 1;
 
     public void chooseNextPerson(Person personUpdate) {
         DataMapper.updatePerson(CharactersStorage.getState().getStorage().getCharacters().get(currentIndex), personUpdate);
